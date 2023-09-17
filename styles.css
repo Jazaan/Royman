@@ -1,0 +1,171 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+/* Logo Styles */
+.logo {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #ffffff; /* Text color is white */
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
+    z-index: 1; /* Add a higher z-index to ensure it's on top */
+}
+
+.logo img {
+    max-width: 150px; /* Increase the maximum width of the logo */
+    max-height: 150px; /* Increase the maximum height of the logo */
+}
+
+/* Header Styles */
+.header {
+    background-image: linear-gradient(to right, #0072C6, #F3D250, #EF3340, #3AA2D0); /* Blue, Yellow, Red, Green */
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.header-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.header-subtitle {
+    font-size: 18px;
+    margin-bottom: 40px; /* Added margin for spacing */
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-list li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Section Styles */
+.section {
+    padding: 60px 0;
+    text-align: center;
+    background: linear-gradient(to bottom, #ffffff, #f8f8f8); /* Background gradient from white to light gray */
+}
+
+/* Container Styles */
+.container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 40px;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px; /* Added border-radius for rounded corners */
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+
+ul.service-list {
+    list-style: none;
+    padding: 0;
+}
+
+ul.service-list li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Portfolio Styles */
+.portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio-item {
+    margin: 20px;
+    background-color: #fff; /* Added background color for each portfolio item */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: left;
+    background: linear-gradient(to bottom, #f8f8f8, #ffffff); /* Background gradient from light gray to white */
+}
+
+.portfolio-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #0072C6; /* Changed color to blue */
+}
+
+.portfolio-item p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Contact Form Styles */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    background-color: #0072C6; /* Blue */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #00A2E8; /* Lighter blue on hover */
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
